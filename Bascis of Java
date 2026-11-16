@@ -36,3 +36,42 @@ next()                       Nandini                          String
 nextLine()                   Hello Java                       String
 next().charAt(0)             A                                char
 nextBoolean()                true                             Boolean
+Example:
+import java.util.Scanner;
+class first {
+public static void main(String[] args){
+  Scanner sc=new Scanner(System.in);
+  int age;
+  long salary;
+  float average;
+  double total;
+  String name;
+System.out.print("Enter age:");
+age=sc.nextInt();
+System.out.print("Enter salary:");
+salary=sc.nextLong();
+System.out.print("Enter Average:");
+average=sc.nextFloat();
+System.out.print("Enter total:");
+total=sc.nextDouble();
+System.out.print("Enter name:");
+name=sc.next();
+System.out.println("Age: "+age+"\tSalary= "+salary+"\tAverage= "+average+"\tTotal= "+total+"\tName= "+name);
+}
+}
+output:
+PS C:\Users\mknan\OneDrive\Desktop\Java FSD> javac first.java
+PS C:\Users\mknan\OneDrive\Desktop\Java FSD> java first      
+Enter age:20
+Enter salary:50000
+Enter Average:95.678
+Enter total:98.000
+Enter name:Nandini
+Age: 20 Salary= 50000   Average= 95.678 Total= 98.0     Name= Nandini
+
+Operators & Operands:
+1.Arithematic Operators:
++,-,*,/,%
+2.Relational Operators:
+=,!=,>,<,>=,<=
+3.Logical Operators:
