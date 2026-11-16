@@ -3,4 +3,36 @@ It was named as "Oak" in 1991
 In 1992 Start7 demo a handheld prototype 
 In 1995 it was renamed as Java(May)
 In 1996 JDK 1.0 is released
-The idea of java is Write once,Run Anywhere which means compile once into portable bytecode,Any device with Java Virtual Machine(JVM) can run it-no rewrite needed.
+The idea of java is "Write once,Run Anywhere" which means compile once into portable bytecode,Any device with Java Virtual Machine(JVM) can run it-no rewrite needed.
+Java 1.0(Jan 1996)-JVM ,core libraries,applets-"Write once,Run Anywhere"
+Java 5(Sep 2004)-Generic,annotations,enums,enhanced for-loop
+Java 8(May 2014)-Lambdas,Stream API,new date/time API(LTS-standard)
+Java 11(Sep 2018)-First LTS of the 6-month era;standard HTTP client
+
+Data Types:
+Numeric
+1.Int
+2.Byte
+3.Short
+4.Long
+5.float
+6.Double
+String 
+1.char
+2.String
+
+Variables Rules
+1.should not be space
+2.should not be a number
+3.should not be special characters
+
+Method Explanation
+Scanner method               Example                          Return type
+nextInt()                    25                               int
+nextLong()                   9876543210L                      long
+nextFloat()                  85.5f                            float
+nextDouble()                 25000.75                         double
+next()                       Nandini                          String
+nextLine()                   Hello Java                       String
+next().charAt(0)             A                                char
+nextBoolean()                true                             Boolean
