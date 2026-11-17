@@ -5,3 +5,56 @@ Control Statements
 3.else if ladder                3.do while                       3.return
 4.nested if
 5.switch
+Example:Conditional 
+import java.util.Scanner;
+public class condition {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        int a=10,b=20 ,c=-16;
+        if(a>b && a>c){
+            System.out.println("Large number is a.");
+        }
+        else if(b>a && b>c){
+            System.out.println("Large number is b.");
+        }
+        else{
+            System.out.println("Large number is c.");
+        }
+        System.out.println("Writing program on grading system..");
+        int marks;
+        System.out.println("Enter marks:");
+        marks=sc.nextInt();
+        if(marks>=90 && marks<=100){
+            System.out.println("Grade='A'");
+        }
+        else if(marks>=80&&marks<90){
+            System.out.println("Grade='B'");
+        }
+        else if(marks>=70&& marks<80){
+            System.out.println("Grade='C'");
+        }
+        else{
+            System.out.println("Grade='F'");
+        }
+    }
+}
+Example:Looping
+import java.util.Scanner;
+public class looping {
+public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    int len;
+    System.out.println("Length:");
+    len=sc.nextInt();
+    System.out.println("Printing first 10 natural number");
+    for(int i=0;i<len;i++){
+        System.out.println("The number is:"+i);
+    }
+    System.out.println("Printing 15 natural number using while loop..");
+    int a=1;
+    while(a<=len){
+        System.out.println("Value of a="+a);
+        a++;
+   }
+}    
+}
