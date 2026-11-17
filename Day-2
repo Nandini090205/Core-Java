@@ -1,5 +1,7 @@
 Control Statements
-1.Conditinal Statements
-2.Looping Statements
-3.Jumping Statements
-
+1.Conditinal Statements         2.Looping Statements             3.Jumping Statements
+1.if                            1.for                            1.continue
+2.if else                       2.while                          2.break               
+3.else if ladder                3.do while                       3.return
+4.nested if
+5.switch
