@@ -5,6 +5,7 @@ Control Statements
 3.else if ladder                3.do while                       3.return
 4.nested if
 5.switch
+
 Example:Conditional 
 import java.util.Scanner;
 public class condition {
@@ -57,4 +58,122 @@ public static void main(String[]args){
         a++;
    }
 }    
+}
+
+Example:Switch casess
+import java.util.Scanner;
+public class calculator {
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Implementing calculator.");
+        System.out.println("Enter a value:");
+        int val=sc.nextInt();
+        switch(val){
+            case 1:
+                System.out.println(" + Addition");
+                break;
+            case 2:
+                System.out.println(" - Subtraction");
+                break;
+            case 3:
+                System.out.println(" * Multiplication");
+                break;
+            case 4:
+                System.out.println(" / Division");
+                break;
+            case 5:
+                System.out.println(" % Modulus");
+                break;
+            case 6:
+                System.out.println("sin theta");
+                break;
+            case 7:
+                System.out.println("cos theta");
+                break;
+            case 8:
+                System.out.println("log");
+                break;
+            case 9:
+                System.out.println("ln");
+                break;
+            case 10:
+                System.out.println("AC");
+                break;
+            case 11:
+                System.out.println("tan theta");
+                break;
+            case 12:
+                System.out.println("cot theta");
+                break;
+            default:
+                System.out.println("No Case Matched.");
+        }
+    }
+}
+
+import java.util.Scanner;
+public class Switch {
+  public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("About MITS University");
+    System.out.println("Enter a value:");
+    int a=sc.nextInt();
+    switch(a){
+    case 1:
+        System.out.println("Department of CSE!");
+        break;
+    case 2:
+        System.out.println("Department of ECE!");
+        break;
+    case 3:
+        System.out.println("Department of EEE!");
+        break;
+    case 4:
+        System.out.println("Department of Civil!");
+        break;
+    case 5:
+        System.out.println("Department of Mechanical!");
+        break;
+    case 6:
+        System.out.println("Department of AI!");
+        break;
+    case 7:
+        System.out.println("Department of AIML!");
+        break;
+    case 8:
+        System.out.println("Department of CS!");
+        break;
+    case 9:
+        System.out.println("Department of DS!");
+        break;
+    case 10:
+        System.out.println("Department of CST!");
+        break;
+    case 11:
+        System.out.println("MBA");
+        break;
+    }
+  }  
+}
+
+Example: Nested if
+import java.util.Scanner;
+public class nestedif {
+   public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    int len;
+    System.out.println("Enter value of len:");
+    len=sc.nextInt();
+    for(int i=0;i<len;i++){
+        if(i<len){
+            if(i%2==0){
+                System.out.println("It is even number");
+            }
+            else{
+                continue;
+            }
+            System.out.println("Value of "+i+" is less than"+len);
+        }
+    }
+   } 
 }
