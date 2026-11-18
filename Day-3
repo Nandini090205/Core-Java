@@ -26,4 +26,6 @@ String b="java";
 System.out.println(s.equalsIgnorecase());
 output:true
 
+6.replace()=replaces characters 
+
 
