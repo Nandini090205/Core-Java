@@ -1,0 +1,29 @@
+String:Collection of characters.
+Methods:
+1.length()=returns the number of characters in a string.
+String s="java";
+System.out.println(s.length());
+output=4
+
+2.charAt()=returns the character at a specified index.
+String s="java";
+System.out.println(s.chatAt(1));
+output='a'
+
+3.toUpperCase()=converts all characters into uppercase.
+String s="java";
+System.out.println(s.toUppercase());
+output="JAVA"
+
+4.toLowerscase()=convert all characters into lowercase.
+String s="JAVA";
+System.out.println(s.toLowercase());
+output="java"
+
+5.equalsIgnoreCase()=compares strings without considering uppercase or lowercase differences.
+String a="JAVA";
+String b="java";
+System.out.println(s.equalsIgnorecase());
+output:true
+
+
