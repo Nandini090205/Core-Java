@@ -10,3 +10,12 @@ Types of Class:
 9)interface
 
 1)concrete class:it is regular class that can be used to create the object
+constructor:special type of function,used to initialize the objects of the class.
+1.parameterized
+2.non-parameterized
+3.default
+functons:
+1.with parameters,with return type
+2.with parameters,without return type
+3.without parameters,with return type
+4.without parameters,without  return type
