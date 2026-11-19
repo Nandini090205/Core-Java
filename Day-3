@@ -28,4 +28,9 @@ output:true
 
 6.replace()=replaces characters 
 
+INSCEPT:length(),chatAt(),isEmpty() and isBlank()-for spaces
+
+Extraction by index:
+1.subString()=subString(start,end)
+2.indexOf()=indexOf("string")
 
