@@ -55,3 +55,9 @@ Replace:
 3.replaceFirst()=str.replaceFirst("h")
 
 split()=str.split(" ")
+join()=str.join("|",str1)
+toCharArray():
+str="nandu raji"
+str.toCharArry();
+output:
+{"nandu","raji"}
