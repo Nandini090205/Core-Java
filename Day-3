@@ -31,6 +31,14 @@ output:true
 INSCEPT:length(),chatAt(),isEmpty() and isBlank()-for spaces
 
 Extraction by index:
-1.subString()=subString(start,end)
-2.indexOf()=indexOf("string")
+1.subString()=str.subString(start,end)
+2.indexOf()=str.indexOf("string")
 
+Compare:
+1.equals()-str.equals(str1)
+2.compareTo()-str.compareTo(str1)
+
+Find:
+1.contains()=str.contains("@")
+2.startswith()=str.startswith("prefix")
+3.endwith()=str.endswith("suffix")
