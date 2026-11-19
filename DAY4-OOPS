@@ -1,0 +1,12 @@
+Types of Class:
+1)concrete class
+2)abstract class
+3)final class
+4)static nested class
+5)inner class
+6)local class
+7)anonymous class
+8)enum class
+9)interface
+
+1)concrete class:it is regular class that can be used to create the object
