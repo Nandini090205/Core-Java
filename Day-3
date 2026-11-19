@@ -61,3 +61,8 @@ str="nandu raji"
 str.toCharArry();
 output:
 {"nandu","raji"}
+Matches()=str.match([0-9]) 
+Formatted()=it checks the string grammar is correct or not.
+
+String Buffer is Synchronized - it goes with a format
+String Builder is asynchronized
