@@ -40,5 +40,16 @@ Compare:
 
 Find:
 1.contains()=str.contains("@")
-2.startswith()=str.startswith("prefix")
-3.endwith()=str.endswith("suffix")
+2.startsWith()=str.startsWith("prefix")
+3.endWith()=str.endsWith("suffix")
+
+Transform:
+1.trim()=str.trim()=removing the spaces at end.
+2.strip()=str.strip()=removing all unwanted spaces in the string
+3.concate()=str.concate(str1)
+4.repeat()=str.repeat(3)
+
+Replace:
+1.replace()=str.replace('a','o')
+2.replaceAll()=str.replaceAll("str","str2")
+3.replaceFirst()=str.replaceFirst("h")
