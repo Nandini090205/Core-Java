@@ -53,3 +53,5 @@ Replace:
 1.replace()=str.replace('a','o')
 2.replaceAll()=str.replaceAll("str","str2")
 3.replaceFirst()=str.replaceFirst("h")
+
+split()=str.split(" ")
