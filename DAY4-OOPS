@@ -19,3 +19,30 @@ functons:
 2.with parameters,without return type
 3.without parameters,with return type
 4.without parameters,without  return type
+
+Building blocks of OOPS:
+1.Encapsulation
+2.Polymorphism
+3.Data Abstraction
+4.Inheritance
+
+Inheritance:
+1.single level inheritance:
+syntax:
+class A{
+//block of code
+}
+class B extenda class A{
+}
+2.Multi-level inheritance:
+syntax:
+class A{
+//block od code
+}
+class B extends class A{
+//block of code
+}
+class C extends class B{
+//block of code
+}
+3.
