@@ -45,4 +45,14 @@ class B extends class A{
 class C extends class B{
 //block of code
 }
-3.
+3.Multiple inheritance:
+syntax:
+interface A{
+//block of code
+}
+interface B{
+//block of code
+}
+class C implements A,B{
+//block of code
+}
