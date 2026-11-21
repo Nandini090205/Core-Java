@@ -1,0 +1,14 @@
+characteristics:
+Maintain insertion order
+Allows duplicate values
+allows index-based access
+usually allows multiple nulls
+
+Method:                                                        purpose
+  add()                                                       Insert element
+  get()                                                       Retrieve element
+  set()                                                       Update element
+  remove()                                                    Delete element
+  contains()                                                  Search
+  size()                                                      Number of elements
+  
